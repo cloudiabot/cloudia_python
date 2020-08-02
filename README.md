@@ -2,7 +2,7 @@
 Teste para Desenvolvedores Python
 
 # Fizz Buzz Bot
-O projeto consiste em construir um bot para o Facebook Messenger ou Telegram que responda automaticamente  mensagens direcionadas a ele com a lógica "Fizz Buzz".
+O projeto consiste em construir um bot para o Facebook Messenger ou Telegram que responda automaticamente mensagens direcionadas a ele com a lógica "Fizz Buzz".
 
 ## Sobre as tecnologias que devem ser usadas:
 - Flask como framework web da aplicação;
@@ -18,9 +18,9 @@ O projeto consiste em construir um bot para o Facebook Messenger ou Telegram que
 - Ou responder com uma mensagem padrão caso a entrada não seja um número inteiro válido.
 - O bot deverá armazenar as informações dos usuários que interagirem com o bot;
 - Assim como armazenar também as mensagens trocadas com estes usuários.
+- Desenvolver testes unitários para a aplicação;
 
 ## Diferenciais que somam pontos extras ao projeto:
-- Desenvolver testes unitários;
 - Utilização de containers Docker;
 - Deploy da aplicação na AWS.
 
