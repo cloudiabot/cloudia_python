@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+    app:
+        build: application
+        restart: ${DOCKER_RESTART:-no}
+        volumes:
+            - ./:/app
+        working_dir: /app/application
+        ports:
+            - "${BACKEND_HOST_PORT}8000"
+        stdin_open: true
+        tty: true
+        command: ${RUNSERVER:-/bin/bash}
